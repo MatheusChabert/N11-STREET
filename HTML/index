@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> N11 STREET</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1> N11 STREET </h1>
+            <button onclik="vercarrinho()">Carrinho 🛒</button>
+        </header>
+
+        <main>
+            <div id="produtos"></div>
+        </main>
+
+        <div id="carrinho" class="hidden">
+            <h2>Carrinhos</h2>
+            <ul id="listaCarrinho"> </ul>
+            <p id="total"></p>
+        </div>
+
+        <script scr="script.js"></script>
+    </body>
+    </html>
